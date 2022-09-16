@@ -1,0 +1,633 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        /* 流体缩放布局: */
+        /* div {
+    width: 80%;
+    font-size: em
+} */
+        
+        #main {
+            width: 1010px;
+            /* border: 1px solid red; */
+            margin: 0px auto;
+        }
+        
+        #header {
+            width: 1000px;
+            /* border: 1px solid blue; */
+            margin: 2px;
+            height: 65px;
+        }
+        
+        #nav {
+            width: 1000px;
+            /* border: 1px solid pink; */
+            margin: 2px;
+            height: 65px;
+            box-sizing: border-box;
+            background-color: #3C86DE;
+        }
+        
+        #logo {
+            width: 110px;
+            height: 25px;
+            float: left;
+            margin-top: 18px;
+            margin-left: 20px;
+        }
+        
+        #search {
+            width: 358px;
+            height: 30px;
+            float: left;
+            margin-top: 18px;
+            margin-left: 180px;
+        }
+        
+        #login {
+            width: 140px;
+            height: 30px;
+            float: right;
+            margin-top: 12px;
+            margin-right: 30px;
+            padding: 7px;
+        }
+        
+        #searchText {
+            float: left;
+            width: 235px;
+            height: 30px;
+            border: 1px solid rgb(134, 182, 236);
+            background: none;
+        }
+        
+        #list {
+            width: 55px;
+            height: 100%;
+            float: left;
+            font-family: "微软雅黑";
+            font-size: 14px;
+            line-height: 30px;
+            text-align: center;
+            color: #A7A7BA;
+            font-weight: bold;
+        }
+        
+        #btnSeach {
+            float: left;
+            height: 30px;
+        }
+        
+        #searchText {
+            height: 23px;
+            width: 212px;
+            float: left;
+            border-left: none;
+        }
+        
+        .list {
+            width: 25px;
+            height: 28px;
+            float: left;
+            margin-left: 10px;
+        }
+        
+        a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-decoration: none;
+        }
+        
+        .list1 a {
+            background: url("../image/icons.png") no-repeat 0px -97px;
+        }
+        
+        .list1 a:hover {
+            background: url("../image/icons.png")no-repeat 0px -147px;
+        }
+        
+        .list2 a {
+            background: url("../image/icons.png") no-repeat 2px -192px;
+        }
+        
+        .list2 a:hover {
+            background: url("../image/icons.png")no-repeat 2px -242px;
+        }
+        
+        .list3 {
+            width: 35px;
+            line-height: 30px;
+            /*div中文字垂直居中*/
+            text-align: center;
+            /*div中文字水平居中*/
+            background-color: #dae0e4;
+        }
+        
+        .list3 a:hover {
+            border: 2px solid rgb(152, 152, 241);
+        }
+        
+        #Sign {
+            color: rgb(119, 166, 221);
+        }
+        
+        .navList {
+            float: left;
+            width: 1000px;
+            height: 65px;
+            /* border-right: 1px solid #609EDA; */
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        
+        .navList ul li {
+            float: left;
+            margin-right: 24px;
+            line-height: 37px;
+        }
+        
+        .navList:last-child {
+            margin-left: 35px;
+        }
+        
+        #drop_two {
+            /* border: 1px solid rgba(0, 255, 221, 0.8); */
+            float: left;
+            width: 30px;
+            height: 40px;
+            margin-left: -25px;
+            background: url("../image/so_arr.png") no-repeat 5px 15px;
+        }
+        
+        .navList ul li a {
+            color: white;
+            text-align: center;
+            font-family: "微软雅黑";
+            font-size: 14px;
+            /* display: block; */
+            width: 30px;
+            height: auto;
+        }
+        
+        .navList ul li a:hover {
+            background-color: #C9E0ED;
+            color: #11519B;
+        }
+        
+        #list {
+            border: 1px solid rgb(94, 190, 219);
+            border-right: none;
+            height: 23px;
+            line-height: 23px;
+            text-align: center;
+            margin-left: 10px;
+        }
+        
+        #middle {
+            float: left;
+            /* border: 1px solid red; */
+            width: 1010px;
+            margin-top: 17px;
+        }
+        
+        #middle_top_left {
+            float: left;
+            /* border: 1px solid rgb(186, 253, 0); */
+        }
+        
+        #middle_top_right {
+            float: right;
+            /* border: 1px solid rgb(186, 253, 0); */
+        }
+        
+        #left_first_big {
+            /* border: 1px solid green; */
+            width: 310px;
+            margin-top: 15px;
+            float: left;
+        }
+        
+        #lfboleft {
+            float: left;
+            border-bottom: 1px solid rgb(25, 0, 255);
+            color: rgb(103, 135, 138);
+            width: auto;
+        }
+        
+        #lfboleft ul li {
+            float: left;
+            font-size: 11px;
+            border-right: 1px solid cyan;
+        }
+        
+        #lfboleft ul li a {
+            margin-left: 2px;
+            margin-right: 5px;
+        }
+        
+        #lfboright {
+            float: right;
+            font-size: 11px;
+            /* border-right: 1px solid cyan; */
+            margin-top: -3px;
+        }
+        
+        #lfboright a:hover {
+            color: rgb(107, 193, 228);
+        }
+        
+        #right_first_big {
+            float: left;
+            /* border: 1px solid rgb(0, 4, 255); */
+            width: 310px;
+        }
+        
+        #rfb_left {
+            float: left;
+            font-size: 11px;
+            /* border: 1px solid #CCCCCC; */
+            margin-left: 35px;
+            margin-top: 15px;
+        }
+        
+        #rfb_left a:hover {
+            background-color: #C9E0ED;
+            color: #11519B;
+        }
+        
+        #lfboleft ul li a:hover {
+            background-color: #C9E0ED;
+            color: #11519B;
+        }
+        
+        #middle_two {
+            /* border: 1px solid rgb(89, 0, 255); */
+            float: left;
+            margin-top: 10px;
+            width: 310px;
+            font-size: 11px;
+            line-height: 25px;
+        }
+        
+        #middle_two ul li a:hover {
+            color: rgb(129, 215, 236);
+            font-family: "微软雅黑";
+        }
+        
+        #middle_three {
+            /* border: 1px solid red; */
+            float: left;
+            margin-top: 10px;
+            margin-left: 35px;
+            font-size: 11px;
+            line-height: 25px;
+        }
+        
+        #middle_three ul li a:hover {
+            color: rgb(18, 153, 231);
+            font-family: "微软雅黑";
+        }
+        
+        #middle_right {
+            /* border: 1px solid rgb(129, 215, 236); */
+            float: right;
+            margin-top: -20px;
+            width: 335px;
+            margin-right: 0px;
+        }
+        
+        .right {
+            width: 335px;
+            float: left;
+            border: 1px solid rgb(145, 196, 229);
+            line-height: 35px;
+            font-size: 10px;
+        }
+        
+        .right ul li {
+            float: left;
+            margin-right: 12px;
+        }
+        
+        .right ul li a:hover {
+            color: rgb(129, 215, 236);
+            font-family: "微软雅黑";
+            /* border: 1px solid rgb(61, 184, 233); */
+            background-color: rgb(177, 214, 248);
+        }
+        
+        #right ul li {
+            float: left;
+            margin-right: 7px;
+        }
+        
+        #middle_right a {
+            color: black;
+        }
+        
+        #middle_three a,
+        #middle_two a {
+            color: black;
+        }
+        
+        .ro_vale {
+            float: right;
+            /* border: 1px solid blue; */
+            width: 25px;
+            height: 25px;
+        }
+        
+        #ro_one {
+            background: url("../image/icons.png") no-repeat -15px -296px;
+            margin-right: 1px;
+            margin-top: 0px;
+        }
+        
+        #ro_three {
+            margin-top: -33px;
+        }
+        
+        .right:nth-of-type(2n+1) {
+            background-color: rgb(245, 247, 250);
+        }
+        
+        .right:nth-of-type(2n) {
+            background-color: #CAE0F3;
+        }
+        
+        #ro_two {
+            background: url("../image/icons.png")no-repeat -15px -343px;
+        }
+        
+        #ro_three {
+            background: url("../image/icons.png")no-repeat -15px -394px;
+        }
+        
+        #ro_four {
+            background: url("../image/icons.png")no-repeat -15px -446px;
+        }
+        
+        .ro_vale a:hover {
+            background-color: rgba(152, 152, 241, 0.3);
+        }
+        
+        #second {
+            /* border: 1px solid green; */
+            float: left;
+            width: 310px;
+            margin-top: 183px;
+            margin-left: -640px;
+        }
+        
+        #second {
+            font-size: 11px;
+            line-height: 25px;
+        }
+        
+        #second a {
+            color: black;
+        }
+        
+        #second a:hover {
+            color: rgb(18, 153, 231)
+        }
+        
+        #meat {
+            /* border: 1px solid red; */
+            float: left;
+            margin-top: -95px;
+            margin-left: 180px;
+        }
+        
+        #word {
+            /* border: 1px solid rgb(0, 255, 76); */
+            width: 293px;
+            margin-left: 345px;
+            margin-top: -285px;
+            float: left;
+        }
+        
+        #word_top {
+            /* border: 1px solid saddlebrown; */
+            float: left;
+            width: 290px;
+        }
+        
+        #word_top_left {
+            float: left;
+            /* border: 1px solid red; */
+            width: 60%;
+        }
+        
+        #word_top_right {
+            float: right;
+            /* border: 1px solid pink; */
+            width: 38%;
+            height: 48px;
+            background: url("../image/hd_bg.png") no-repeat 0px 24px;
+        }
+        
+        #word_list {
+            float: left;
+            /* border: 1px solid rgb(255, 0, 234); */
+            margin-top: -8px;
+        }
+        
+        #word_list_tow {
+            float: left;
+            /* border: 1px solid #3C86DE; */
+            margin-top: -225px;
+            margin-left: 173px;
+            width: 120px;
+        }
+        
+        #word_list_tow a:hover {
+            color: rgb(18, 153, 231);
+        }
+        
+        #basketball {
+            /* border: 1px solid red; */
+            float: right;
+            margin-top: -320px;
+            margin-right: -377px;
+            width: 336px;
+        }
+        
+        #basketball_left，#basketball_right {
+            float: left;
+            border: 1px solid green;
+            width: 30px;
+        }
+        
+        #basketball_left ul li {
+            float: left;
+            border-right: 1px solid rgb(132, 151, 153);
+            border-bottom: 3px solid rgb(69, 160, 170);
+            padding: 2px;
+        }
+        
+        #basketball_right {
+            float: right;
+        }
+        
+        #basketball_left ul li a {
+            color: rgb(88, 159, 240);
+        }
+        
+        #basketball_left a:hover {
+            background-color: rgb(172, 213, 236);
+        }
+        
+        #basketball_low {
+            margin-top: 5px;
+            /* border: 1px solid red; */
+            float: left;
+        }
+        
+        #basketball_list {
+            float: left;
+            line-height: 23px;
+            padding-left: 10px;
+            /* border: 1px solid green; */
+            padding: 5px;
+        }
+        
+        #footer_img {
+            margin-top: 630px;
+        }
+        
+        #footer_low {
+            /* border: 1px solid red; */
+            float: left;
+            margin-top: 20px;
+            margin-left: 180px;
+            line-height: 30px;
+        }
+        
+        #footer_low ul li {
+            float: left;
+        }
+        
+        #footer_low ul li a {
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+        }
+        
+        #footer_low ul li a:hover {
+            color: rgb(51, 157, 243);
+            font-size: 12px;
+        }
+        
+        #box_two {
+            /* border: 1px solid green; */
+            float: left;
+            margin-left: 10%;
+        }
+        
+        #box_three {
+            /* border: 1px solid green; */
+            float: left;
+            margin-left: -7%;
+        }
+        
+        #box_four {
+            /* border: 1px solid green; */
+            float: left;
+            margin-left: -1%;
+        }
+        
+        #box_five {
+            /* border: 1px solid green; */
+            float: left;
+            margin-left: 17%;
+        }
+        
+        #box_six {
+            /* border: 1px solid green; */
+            float: left;
+            margin-left: 19%;
+        }
+        
+        #footer_information {
+            margin-left: -15%;
+        }
+        /* 添加css：------------------------------------------------- */
+        
+        .container {
+            /* border: 1px solid red; */
+            width: 85px;
+            height: 50vh;
+            margin-top: -827px;
+            margin-left: 77.5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        /*图标框:*/
+        
+        .container .img {
+            /* border: 1px solid green; */
+            width: 60px;
+            height: 50px;
+            /*设置阴影 ?: */
+            box-shadow: 18px 18px 30px rgba(0, 0, 0, 1), -18px -18px 30px rgba(255, 255, 255, 1);
+            transition: box-shadow .6s ease-out;
+            border-radius: 25px;
+            display: center;
+            justify-content: center;
+            background-color: #efeeee;
+            position: relative;
+        }
+        /*图片设置:*/
+        
+        .container {
+            /* border: 1px solid red; */
+            width: 50px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        /*图标框:*/
+        
+        .container .img {
+            /* border: 1px solid green; */
+            width: 70px;
+            height: 50px;
+            /*设置阴影 ?: */
+            box-shadow: 18px 18px 45px rgba(0, 0, 0, 0.5), -18px -18px 30px rgba(255, 255, 255, 1);
+            transition: box-shadow .6s ease-out;
+            border-radius: 25px;
+            display: center;
+            justify-content: center;
+            background-color: #efeeee;
+            position: relative;
+        }
+        /*图片设置:*/
+        
+        .container .img img {
+            width: 60px;
+            /* 将鼠标悬停在一个 div 元素上，逐步改变表格的宽度*/
+            transition: width .6s ease-out;
+            margin-left: 0px;
+            margin-top: 10px;
+            float: left;
+        }
+        
+        .container .img:hover {
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(255, 255, 255, 0.1), inset 18px 18px 30px rgba(0, 0, 0, 0.1), inset -18px -18px 30px rgba(255, 255, 255, 1);
+            background-color: rgb(69, 190, 238);
+        }
+        
+        .container .img img:hover {
+            width: 58px;
+            transition: width .2s ease-out;
+            float: left;
+        }
